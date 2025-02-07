@@ -104,7 +104,7 @@ const App = () => {
       
       <div className="mt-4">
         <h2>Extracted Text:</h2>
-        <pre>{extractedText}</pre>
+        <div className="width-scroll">{extractedText}</div>
 
         {selectedText && (
           <div>
